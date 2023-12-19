@@ -26,6 +26,7 @@ h1{
     color: var(--primary-color);
     font-weight: 700;
     line-height: 60px;
+    text-align: center;
 }
 
 h2{
@@ -62,7 +63,6 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
-    border-bottom: 1px solid var(--para-first-color);
 }
 .header .nav{
     display: flex;
@@ -82,6 +82,51 @@ a{
     font-weight: 500;
 }
 .header .butns .get_started{
+    color: var(--bg-color-2);
+    font-weight: 500;
+    background: var(--secondary-color);
+    padding: 6px 10px;
+    border-radius: 20px;
+} 
+hr{
+    color: #000;
+    opacity: 0.2;
+}
+.banner{
+    position: relative;
+    top: 60px;
+}
+.banner .banner_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.banner .banner_text p{
+    margin-bottom: 30px;
+}
+.banner .form{
+    display: flex;
+    align-items: center;
+    background: var(--bg-color-2);
+    width: 50%;
+    border-radius: 60px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.banner .input{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+ input{
+    width: 80%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+.banner .form .email_btn{
     color: var(--bg-color-2);
     font-weight: 500;
     background: var(--secondary-color);
