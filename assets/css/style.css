@@ -47,14 +47,44 @@ p{
     font-size: 16px;
     color: var(--para-first-color);
 }
+a{
+    text-decoration: none;
+}
 
-.container {
+
+.container{
     width: 85vw;
     margin: 0 auto;
 }
 
 .header{
-    width: 100%;
-    background-color: var(--primary-color);
-    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--para-first-color);
+}
+.header .nav{
+    display: flex;
+    gap: 20px;
+}
+.header .nav a{
+    color: var(--para-first-color);
+    font-weight: 500;
+}
+.header .butns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header .butns .login{
+    color: var(--para-first-color);
+    font-weight: 500;
+}
+.header .butns .get_started{
+    color: var(--bg-color-2);
+    font-weight: 500;
+    background: var(--secondary-color);
+    padding: 6px 10px;
+    border-radius: 20px;
 }
